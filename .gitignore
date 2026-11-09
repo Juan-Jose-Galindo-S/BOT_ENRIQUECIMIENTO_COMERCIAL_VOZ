@@ -1,0 +1,46 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials*
+secrets*
+
+# Copias originales y exports operativos
+*.zip
+*.7z
+*.tar
+*.tar.gz
+exports/
+backups/
+private/
+workflows/
+*.sqlite
+*.sqlite3
+*.db
+
+# Datos de contactos, audio y transcripciones
+call_logs/
+transcripts/
+recordings/
+contacts/
+data/
+*.csv
+*.xlsx
+*.wav
+*.mp3
+
+# Python, editor, sistema operativo
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+*.log
